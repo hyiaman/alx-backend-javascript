@@ -1,26 +1,32 @@
 {
-  "name": "0x00-ES6_basic",
+  "name": "0x00-es6_basic",
   "version": "1.0.0",
-  "description": "",
+  "description": "1. ECMAScript 6 - ECMAScript 2015.\r 2. Node.js and NPM",
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "dev": "./node_modules/.bin/babel-node",
-    "lint": "./node_modules/.bin/eslint"
+    "dev": "babel-node",
+    "lint": "eslint"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "^7.20.5",
-    "@babel/node": "^7.20.5",
-    "@babel/preset-env": "^7.20.2",
-    "eslint": "^8.30.0",
+    "@babel/core": "^7.25.2",
+    "@babel/node": "^7.25.0",
+    "@babel/preset-env": "^7.25.4",
+    "@eslint/js": "^9.11.1",
+    "eslint": "^8.57.1",
     "eslint-config-airbnb-base": "^15.0.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-n": "^15.6.0",
     "eslint-plugin-promise": "^6.1.1",
-    "jest": "^27.5.1"
+    "globals": "^15.10.0",
+    "jest": "^27.5.1",
+    "typescript-eslint": "^8.8.0"
+  },
+  "directories": {
+    "test": "tests"
   }
 }
